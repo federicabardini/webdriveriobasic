@@ -8,9 +8,9 @@
 ## Run tests
 
 Write, through command line, the following command 
-npm run test 
+  npm run test 
 to run test on local machine
 
 or
-npm run testci
+  npm run testci
 to run test on Selenoid
