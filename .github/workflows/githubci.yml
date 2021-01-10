@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Start selenoid
-    - uses: Xotabu4/selenoid-github-action@v1
+      uses: Xotabu4/selenoid-github-action@v1
     - uses: actions/checkout@v2
     - name: Use Node.js
       uses: actions/setup-node@v1
