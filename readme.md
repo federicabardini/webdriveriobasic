@@ -9,8 +9,8 @@
 
 Write, through command line, the following command 
  - npm run test 
-to run test on local machine
+to run test on local machine, both on Chrome and Firefox (local version installed on local machine)
 
-or
+
+Every push on the repo will trigger test run on GitHub CI on Chrome and Firefox last version (through Selenoid)
  - npm run testci
-to run test on Selenoid
